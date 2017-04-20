@@ -1,0 +1,42 @@
+@import url("https://fontlibrary.org/face/aileron");
+
+.aileron {
+  font-family: "AileronHeavy";
+  color: #333;
+}
+
+
+.nav-scroll {
+  background: white
+}
+
+
+.nav-logo {
+  font-family: "AileronHeavy";
+  color: white;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.home-section {
+  background: -webkit-linear-gradient(top left, #da5, #d26);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.gradient-background-section {
+  background: -webkit-linear-gradient(top left, #da5, #d26);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.section-full-height {
+  height: 100vh;
+}
+
+.btn:hover {
+  color: orange
+}

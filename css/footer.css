@@ -1,0 +1,314 @@
+
+/* FOOTER CSS by CockroachDB */
+
+.col-xs-15,
+.col-xsm-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left
+}
+
+@media (min-width: 544px) {
+    .col-xsm-15 {
+        width: 20%;
+        float: left
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left
+    }
+}
+
+
+
+@media (max-width: 680px) {
+    section.hero #hero_footer {
+        height: 55px
+    }
+    section.hero #hero_footer .footer-tablet {
+        display: none
+    }
+    section.hero #hero_footer .footer-mobile {
+        display: block
+    }
+}
+
+
+
+
+
+section.footer {
+    padding: 30px 20px 20px;
+    height: 40vh;
+}
+
+@media screen and (min-width: 768px) {
+    section.footer {
+        padding: 50px 60px 20px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer {
+        padding-bottom: 60px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-width: 100%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .container {
+        max-width: 1050px;
+        margin: 0 auto
+    }
+}
+
+section.footer .footer__flex-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer__flex-wrap {
+        width: 65%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .footer__flex-wrap {
+        width: 69%
+    }
+}
+
+section.footer .footer__social {
+    border-top: solid 1px #e2e2e2;
+    padding-top: 35px
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer__social {
+        border-top: none;
+        border-left: solid 1px #e2e2e2;
+        width: 34%;
+        padding-top: 0;
+        padding-left: 60px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .footer__social {
+        width: 30%
+    }
+}
+
+section.footer .footer__social .footer-nav {
+    width: 100%
+}
+
+section.footer .footer__social .footer-nav li,
+section.footer .footer__social .footer-nav a {
+    text-align: center
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer__social .footer-nav li,
+    section.footer .footer__social .footer-nav a {
+        text-align: left;
+        line-height: 34px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .footer__social .footer-nav li,
+    section.footer .footer__social .footer-nav a {
+        text-align: left;
+        line-height: 24px
+    }
+}
+
+section.footer .footer__social .footer-nav li.header {
+    margin-bottom: 22px
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer__social .footer-nav li.header {
+        margin-bottom: 12px
+    }
+}
+
+section.footer .footer-nav {
+    list-style: none;
+    margin-bottom: 30px;
+    width: calc(100%/ 2)
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .footer-nav {
+        width: calc(100%/ 4 - 1px)
+    }
+    section.footer .footer-nav--product {
+        -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+        order: -2
+    }
+    section.footer .footer-nav--documentation {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1
+    }
+}
+
+section.footer .footer-nav li {
+    color: #142848;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 20px 0 0;
+    text-indent: 0
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer-nav li {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .footer-nav li {
+        text-align: left
+    }
+}
+
+section.footer .footer-nav li a {
+    color: #111d39;
+    font-family: "AileronRegular";
+    font-size: 14px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    line-height: 34px;
+    text-transform: none;
+    -webkit-transition: color 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+    -moz-transition: color 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+    -o-transition: color 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+    transition: color 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99)
+}
+
+section.footer .footer-nav li a:hover {
+  color: #d26;
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer-nav li a {
+        line-height: 24px
+    }
+}
+
+section.footer .footer-nav li.header a {
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: "AileronHeavy";
+    font-size: 12px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    line-height: 17px;
+    letter-spacing: 1.3px;
+    display: block;
+    text-transform: uppercase
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .footer-nav li.header a {
+        margin-bottom: 12px;
+        font-size: 13px
+    }
+}
+
+
+section.footer .footer-nav li:before {
+    content: "";
+    display: none;
+    left: auto;
+    top: auto
+}
+
+section.footer .copyright {
+    margin: 10px 0 0;
+    text-align: center;
+  font-family: "AileronHeavy";
+    font-size: 14px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    color: #142848
+}
+
+@media screen and (min-width: 768px) {
+    section.footer .copyright {
+        width: 100%;
+        margin-top: 65px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.footer .copyright {
+        text-align: left;
+        margin-top: 15px
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .single #blog_content article .subscribe--footer {
+        margin-left: 0
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .single #blog_content article .subscribe--footer {
+        display: none
+    }
+}

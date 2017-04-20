@@ -187,11 +187,13 @@ section.footer .footer-nav {
     section.footer .footer-nav {
         width: calc(100%/ 4 - 1px)
     }
+    
     section.footer .footer-nav--product {
         -webkit-box-ordinal-group: -1;
         -ms-flex-order: -2;
         order: -2
     }
+    
     section.footer .footer-nav--documentation {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;

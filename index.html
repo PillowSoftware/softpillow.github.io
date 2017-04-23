@@ -17,14 +17,21 @@
     <link href="css/libs/mdb.min.css" rel="stylesheet">
 
     <!--footer css-->
-    <link href="css/footer.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/sections/footer.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--contact css-->
+    <link href="css/sections/contact_page.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--team css-->
+    <link href="css/sections/team_page.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
     <!--custom css-->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
     <!-- Template styles -->
     <link href="css/template_css.css" type="text/css" rel="stylesheet" media="screen,projection" />
-        
+
+
 </head>
 
 <body>
@@ -43,10 +50,10 @@
             <div class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                        <a href="#home-section" class="nav-link">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Team</a>
+                        <a href = "#team-section" class="nav-link">Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">Pricing</a>
@@ -68,7 +75,7 @@
 
 
     <!--Mask // add hm-black-strong to shadow-->
-    <div class="view ">
+    <div class="view gradient-bg" id="home-section">
         <div class="full-bg-img flex-center">
             <ul class="animated fadeInUp">
                 <li>
@@ -78,13 +85,149 @@
                   <h4 class="header col s12 light white-text aileron">We specialize at creating quality software for developers and for users on-demand.</h4>
                 </li>
                 <li>
-                    <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg" rel="nofollow">Contact us</a>
+                    <a  href="#contact-section" class="btn btn-primary btn-lg" rel="nofollow">Contact us</a>
                     <a target="_blank" href="https://github.com/PillowSoftware" class="btn btn-default btn-lg" rel="nofollow">Learn more</a>
                 </li>
             </ul>
         </div>
     </div>
     <!--/.Mask-->
+
+    <!-- teame section -->
+      <div  class="at-grid" id = "team-section" data-column="2">
+        <div class="at-column">
+          <div class="at-user">
+            <div class="at-user__avatar"><img src="https://avatars3.githubusercontent.com/u/21358576?v=3&u=bc81d85058fc42228376f51e1598150e15845e7b&s=400"/></div>
+            <div class="at-user__name">Shlomi Alon</div>
+            <div class="at-user__title">Co-Founder</div>
+            <ul class="at-social">
+              <li class="at-social__item"><a href="https://www.facebook.com/profile.php?id=100000170029950">
+                  <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 9h3l-.375 3H14v9h-3.89v-9H8V9h2.11V6.984c0-1.312.327-2.304.984-2.976C11.75 3.336 12.844 3 14.375 3H17v3h-1.594c-.594 0-.976.094-1.148.281-.172.188-.258.5-.258.938V9z" fill-rule="evenodd"></path>
+                  </svg></a></li>
+              <li class="at-social__item"><a href="https://github.com/shlomialon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.875 7.5v.563c0 3.28-1.18 6.257-3.54 8.93C14.978 19.663 11.845 21 7.938 21c-2.5 0-4.812-.687-6.937-2.063.5.063.86.094 1.078.094 2.094 0 3.969-.656 5.625-1.968a4.563 4.563 0 0 1-2.625-.915 4.294 4.294 0 0 1-1.594-2.226c.375.062.657.094.844.094.313 0 .719-.063 1.219-.188-1.031-.219-1.899-.742-2.602-1.57a4.32 4.32 0 0 1-1.054-2.883c.687.328 1.375.516 2.062.516C2.61 9.016 1.938 7.75 1.938 6.094c0-.782.203-1.531.609-2.25 2.406 2.969 5.515 4.547 9.328 4.734-.063-.219-.094-.562-.094-1.031 0-1.281.438-2.36 1.313-3.234C13.969 3.437 15.047 3 16.328 3s2.375.484 3.281 1.453c.938-.156 1.907-.531 2.907-1.125-.313 1.094-.985 1.938-2.016 2.531.969-.093 1.844-.328 2.625-.703-.563.875-1.312 1.656-2.25 2.344z" fill-rule="evenodd"></path>
+                  </svg></a></li>
+              <li class="at-social__item"><a href="https://www.linkedin.com/in/shlomi-alon/">
+                  <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.547 3c.406 0 .75.133 1.031.398.281.266.422.602.422 1.008v15.047c0 .406-.14.766-.422 1.078a1.335 1.335 0 0 1-1.031.469h-15c-.406 0-.766-.156-1.078-.469C3.156 20.22 3 19.86 3 19.453V4.406c0-.406.148-.742.445-1.008C3.742 3.133 4.11 3 4.547 3h15zM8.578 18V9.984H6V18h2.578zM7.36 8.766c.407 0 .743-.133 1.008-.399a1.31 1.31 0 0 0 .399-.96c0-.407-.125-.743-.375-1.009C8.14 6.133 7.813 6 7.406 6c-.406 0-.742.133-1.008.398C6.133 6.664 6 7 6 7.406c0 .375.125.696.375.961.25.266.578.399.984.399zM18 18v-4.688c0-1.156-.273-2.03-.82-2.624-.547-.594-1.258-.891-2.133-.891-.938 0-1.719.437-2.344 1.312V9.984h-2.578V18h2.578v-4.547c0-.312.031-.531.094-.656.25-.625.687-.938 1.312-.938.875 0 1.313.578 1.313 1.735V18H18z" fill-rule="evenodd"></path>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="at-column">
+          <div class="at-user">
+            <div class="at-user__avatar"><img src="https://avatars1.githubusercontent.com/u/17123769?v=3&s=96"/></div>
+            <div class="at-user__name">Elad Keyshawn</div>
+            <div class="at-user__title">Co-Founder</div>
+            <ul class="at-social">
+              <li class="at-social__item"><a href="https://www.facebook.com/elad.keyshawn">
+                  <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 9h3l-.375 3H14v9h-3.89v-9H8V9h2.11V6.984c0-1.312.327-2.304.984-2.976C11.75 3.336 12.844 3 14.375 3H17v3h-1.594c-.594 0-.976.094-1.148.281-.172.188-.258.5-.258.938V9z" fill-rule="evenodd"></path>
+                  </svg></a></li>
+              <li class="at-social__item"><a href="https://github.com/EladKeyshawn">
+                  <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.875 7.5v.563c0 3.28-1.18 6.257-3.54 8.93C14.978 19.663 11.845 21 7.938 21c-2.5 0-4.812-.687-6.937-2.063.5.063.86.094 1.078.094 2.094 0 3.969-.656 5.625-1.968a4.563 4.563 0 0 1-2.625-.915 4.294 4.294 0 0 1-1.594-2.226c.375.062.657.094.844.094.313 0 .719-.063 1.219-.188-1.031-.219-1.899-.742-2.602-1.57a4.32 4.32 0 0 1-1.054-2.883c.687.328 1.375.516 2.062.516C2.61 9.016 1.938 7.75 1.938 6.094c0-.782.203-1.531.609-2.25 2.406 2.969 5.515 4.547 9.328 4.734-.063-.219-.094-.562-.094-1.031 0-1.281.438-2.36 1.313-3.234C13.969 3.437 15.047 3 16.328 3s2.375.484 3.281 1.453c.938-.156 1.907-.531 2.907-1.125-.313 1.094-.985 1.938-2.016 2.531.969-.093 1.844-.328 2.625-.703-.563.875-1.312 1.656-2.25 2.344z" fill-rule="evenodd"></path>
+                  </svg></a></li>
+              <li class="at-social__item"><a href="https://il.linkedin.com/in/elad-keyshawn-a68938119">
+                  <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.547 3c.406 0 .75.133 1.031.398.281.266.422.602.422 1.008v15.047c0 .406-.14.766-.422 1.078a1.335 1.335 0 0 1-1.031.469h-15c-.406 0-.766-.156-1.078-.469C3.156 20.22 3 19.86 3 19.453V4.406c0-.406.148-.742.445-1.008C3.742 3.133 4.11 3 4.547 3h15zM8.578 18V9.984H6V18h2.578zM7.36 8.766c.407 0 .743-.133 1.008-.399a1.31 1.31 0 0 0 .399-.96c0-.407-.125-.743-.375-1.009C8.14 6.133 7.813 6 7.406 6c-.406 0-.742.133-1.008.398C6.133 6.664 6 7 6 7.406c0 .375.125.696.375.961.25.266.578.399.984.399zM18 18v-4.688c0-1.156-.273-2.03-.82-2.624-.547-.594-1.258-.891-2.133-.891-.938 0-1.719.437-2.344 1.312V9.984h-2.578V18h2.578v-4.547c0-.312.031-.531.094-.656.25-.625.687-.938 1.312-.938.875 0 1.313.578 1.313 1.735V18H18z" fill-rule="evenodd"></path>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- end teame section -->
+
+<!-- contact us section testing -->
+<div id='browser'>
+<div id='browser-bar'>
+  <div class='circles' id="contact-section"></div>
+  <div class='circles'></div>
+  <div class='circles'></div>
+  <p>Contact Us</p>
+  <span class='arrow entypo-resize-full'></span>
+</div>
+<div id='content'>
+  <div id='left'>
+    <div id='map'>
+      <p>Where To Find Us</p>
+      <div class='map-locator'>
+        <div class='tooltip'>
+          <ul>
+            <li>
+              <span class='entypo-location'></span>
+              <span class='selectedLocation'>Israel</span>
+            </li>
+            <li>
+              <span class='entypo-mail'></span>
+              <a href='#'>shlomi.al90@gmail.com</a>
+            </li>
+            <li>
+              <span class='entypo-phone'></span>
+              (+972 2) 123 45 67
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='zoom'></div>
+    </div>
+    <ul id='location-bar'>
+      <li>
+        <a class='location' data-location='Israel' href='http://f.cl.ly/items/452R3S1440221Z3m372j/israel.png'>Israel</a>
+      </li>
+      <li>
+        <a class='location' data-location='USA' href='http://f.cl.ly/items/0n0o01382l0p1u271D43/usa.png'>USA</a>
+      </li>
+      <li>
+        <a class='location' data-location='The Netherlands' href='http://f.cl.ly/items/0g0l283X3h1T3H270V0A/netherlands.png'>The Netherlands</a>
+      </li>
+      <li>
+        <a class='location' data-location='Singapore' href='http://f.cl.ly/items/1i2Y262H020X141R3h0k/singapore.png'>Singapore</a>
+      </li>
+    </ul>
+  </div>
+  <div id='right'>
+    <p>Stay in Touch</p>
+    <div id='social'>
+      <a class='social'>
+        <span class='entypo-facebook'></span>
+      </a>
+      <a class='social'>
+        <span class='entypo-twitter'></span>
+      </a>
+      <a class='social'>
+        <span class='entypo-linkedin'></span>
+      </a>
+      <a class='social'>
+        <span class='entypo-gplus'></span>
+      </a>
+      <a class='social'>
+        <span class='entypo-instagrem'></span>
+      </a>
+    </div>
+    <form>
+      <p>Get in Contact</p>
+      <input placeholder='Email' type='email'>
+      <input placeholder='Subject' type='text'>
+      <textarea placeholder='Message' rows='4'></textarea>
+      <input placeholder='Send' type='submit'>
+    </form>
+    <p>other way</p>
+    <p class='other entypo-mail'>
+      <a href='#'>info@SoftPillow.com</a>
+    </p>
+    <p class='other entypo-phone'>(+972 2) 123 45 67</p>
+  </div>
+</div>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+<!-- end contact us section -->
 
     <!--footer section-->
     <section class="footer">

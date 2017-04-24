@@ -58,9 +58,12 @@ img {border: 0;}
 /* 03. TEAM SETTINGS ============================================ */
 
 #speakers {
-	padding: 60px 0;
-	background: #4593e3;
-	text-align: center;	
+	padding: 100px 0;
+	/*background: #4593e3;*/
+background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+
+text-align: center;	
 }
 
 #speakers p {

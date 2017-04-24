@@ -1,193 +1,173 @@
+/*
+Tutorial Name: Meet the Team
+Description: A simple concept for members section.
+Author: Stanislav Kostadinov
+Author URI: http://stanislav.it
+Usage: You can use this code for free in personal and commercial projects if you build upon it. You are not allowed to republish, redistribute or sell "as-is". 
+*/
+
+/* 01. GENERAL SETTINGS ============================================ */
+
+* {margin: 0; padding: 0;}
+
+p {line-height: 160%;}
+
+a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
+img {border: 0;}
 
 
-.at-section__title {
-  margin: 0 0 70px;
-  color: #000;
-  font-family: "AileronHeavy";
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 2.625rem;
-  text-align: center;
+
+.clear {clear: both;}
+
+/* Buttons */
+.btn {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 40px;
+	color: rgba(255,255,255, 0.95);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 20px;
+	outline: 0;
+	transition: all 0.1s ease-in;
 }
-.at-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background: #FFF;
-  border: 1px solid #E2E9ED;
+
+.btn-transparent {background: rgba(0,0,0, 0.2);}
+.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
+
+/* Separators */
+.separator {
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.2);
+	width: 30px;
+	height: 5px;
 }
-.at-grid[data-column="1"] .at-column {
-  width: 50%;
-  max-width: 50%;
-  min-width: 50%;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+
+/* 02. FONT FACE ============================================ */
+
+@font-face {
+    font-family: 'norwester';
+	src: url('../fonts/norwester/norwester.eot');
+    src: url('../fonts/norwester/norwester.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/norwester/norwester.ttf');
+    font-weight: normal;
 }
-.at-grid[data-column="2"] .at-column {
-  width: 50%;
-  max-width: 50%;
-  min-width: 50%;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+
+/* 03. TEAM SETTINGS ============================================ */
+
+#speakers {
+	padding: 60px 0;
+	background: #4593e3;
+	text-align: center;	
 }
-/*.at-grid[data-column="3"] .at-column {
-  width: 33.33333%;
-  max-width: 33.33333%;
-  min-width: 33.33333%;
-  -ms-flex-preferred-size: 33.33333%;
-      flex-basis: 33.33333%;
+
+#speakers p {
+	padding: 20px 0 60px;
+	color: rgba(255,255,255, 0.85);
+	font-size: 16px;
+	letter-spacing: 0.2px;
 }
-.at-grid[data-column="4"] .at-column {
-  width: 25%;
-  max-width: 25%;
-  min-width: 25%;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+
+#speakers h3 {
+	padding: 0 0 15px;
+	/*font-family: 'norwester';*/
+	font-size: 36px;
+	text-transform: uppercase;
 }
-.at-grid[data-column="5"] .at-column {
-  width: 20%;
-  max-width: 20%;
-  min-width: 20%;
-  -ms-flex-preferred-size: 20%;
-      flex-basis: 20%;
+
+#speakers h4  {
+	margin-top: -20px;
+	font-size: 32px;
+	font-weight: 700;
 }
-.at-grid[data-column="6"] .at-column {
-  width: 16.66667%;
-  max-width: 16.66667%;
-  min-width: 16.66667%;
-  -ms-flex-preferred-size: 16.66667%;
-      flex-basis: 16.66667%;
+
+#speakers h4 span {
+	display: block;
+	position: relative;
+	left: -40px;
+	top: 0px;
+	font-size: 25px;
+	background: none;
+	padding: 0;
 }
-.at-grid[data-column="7"] .at-column {
-  width: 14.28571%;
-  max-width: 14.28571%;
-  min-width: 14.28571%;
-  -ms-flex-preferred-size: 14.28571%;
-      flex-basis: 14.28571%;
+
+#speakers img {
+	width: 100%;
+	max-width: 240px;
+	border-radius: 50%; 
+	border: 15px solid transparent; 
+	box-shadow: 2px 2px 0px rgba(0,0,0, 0.18);
+	transition: all 0.1s ease-in;
 }
-.at-grid[data-column="8"] .at-column {
-  width: 12.5%;
-  max-width: 12.5%;
-  min-width: 12.5%;
-  -ms-flex-preferred-size: 12.5%;
-      flex-basis: 12.5%;
+	
+#speakers img:hover {
+	border: 15px solid #3980C9;
+	position: relative;
+	z-index: 10;
+	transition: all 0.1s ease-in;	
 }
-.at-grid[data-column="9"] .at-column {
-  width: 11.11111%;
-  max-width: 11.11111%;
-  min-width: 11.11111%;
-  -ms-flex-preferred-size: 11.11111%;
-      flex-basis: 11.11111%;
-}*/
-.at-column {
-  z-index: 0;
-  position: relative;
-  background: #FFF;
-  box-shadow: 0 0 0 1px #E2E9ED;
-  padding: 10px;
-  box-sizing: border-box;
-  -webkit-transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-  transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
+
+#speakers span {
+	padding: 8px 20px;
+	position: relative;
+	top: -64px;
+	left: -42px;
+	display: inline-block;
+	background: #4593e3;
+	border-radius: 0 16px 16px 0;
+	font-size: 16px;
 }
-.at-column:before {
-  content: "";
-  display: block;
-  padding-top: 100%;
+
+/* Member Image Hover Effect */
+.hover_img {
+  display: none
 }
-.at-column:hover {
-  z-index: 1;
-  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-  transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+
+.member-profile:hover .unhover_img{
+  display: none;
 }
-.at-column:hover .at-social {
-  margin: 16px 0 0;
-  opacity: 1;
-}
-@media (max-width: 800px) {
-  .at-column {
-    width: 50% !important;
-    max-width: 50% !important;
-    min-width: 50% !important;
-    -ms-flex-preferred-size: 50% !important;
-        flex-basis: 50% !important;
-  }
-}
-@media (max-width: 600px) {
-  .at-column {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
-    -ms-flex-preferred-size: 100% !important;
-        flex-basis: 100% !important;
-  }
-}
-.at-user {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-  text-align: center;
-}
-.at-user__avatar {
-  width: 98px;
-  height: 98px;
-  border-radius: 100%;
-  margin: 0 auto 20px;
-  overflow: hidden;
-}
-.at-user__avatar img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
-.at-user__name {
-  color: #313435;
-  font-family: "AileronHeavy";
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 2.625rem;
-}
-.at-user__title {
-  color: #6F808A;
-  font-family: "AileronHeavy";
-  font-size: 0.875rem;
-  line-height: 2.375rem;
-}
-.at-social {
-  margin: 0 0 -18px;
-  opacity: 0;
-  -webkit-transition: margin 0.2s ease, opacity 0.2s ease;
-  transition: margin 0.2s ease, opacity 0.2s ease;
-}
-.at-social__item {
-  display: inline-block;
-  margin: 0 10px;
-}
-.at-social__item a {
+
+.member-profile:hover .hover_img {
   display: block;
 }
-.at-social__item svg {
-  fill: #515F65;
-  display: block;
-  height: 18px;
-  -webkit-transition: fill 0.2s ease;
-  transition: fill 0.2s ease;
+
+/* Social Networks Meta */
+#speakers li {display: inline-block; padding: 0 6px; font-size: 18px;}
+#speakers li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
+#speakers li a:hover {color: rgba(0,0,0, 0.7);}
+
+/* Rows Optimization */
+.row2 {
+	display: none;
 }
-.at-social__item svg:hover {
-  fill: #788D96;
+
+.row1 .col-md-3, .row2 .col-md-3 {
+	padding-bottom: 40px;
 }
+
+/* Mobile Devices Optimization */
+@media (min-width: 568px) and (max-width: 992px) {
+
+	.row1 .col-md-3, .row2 .col-md-3 {
+		display: inline-block;
+		max-width: 50%;
+	}
+
+	#speakers img {max-width: 300px;}
+
+}
+
+/* Top Section - not included in the archive available for free download */
+#top {
+	background: rgb(60, 110, 184);
+	padding: 6px 10px;
+	text-align: right;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#top a {padding: 0 10px;}
+#top, #top a {color: rgba(255,255,255,0.4);}
+#top a:hover {color: #fff;}

@@ -39,10 +39,13 @@
 
         .view {
             /*background: url("http://mdbootstrap.com/img/Photos/Horizontal/City/full%20page/img%20(1).jpg")no-repeat center center fixed;*/
-            background: -webkit-linear-gradient(top left, #da5, #d26);
-            background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+        }
+
+        .gradient-bg {
+            background: -webkit-linear-gradient(top left, #da5, #d26);
+            background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
         }

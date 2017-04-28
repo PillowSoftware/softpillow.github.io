@@ -1,4 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300)
 
+font-roboto="Roboto", sans-serif
+white=#eeeaea
+black=#333344
+grey=#cdcccc
+gray=grey
+red=#cc4411
+
+absolute-fill()
+  position absolute
+  top 0
+  left 0
+  bottom 0
+  right 0
+
+$default-button
+  background red
+  border none
+  color white
+  font-family font-roboto
+  font-weight 700
+  outline none
+
+*
+  box-sizing border-box
+
+a
+  color inherit
+
+body
+  background white
+  color black
+  font-family roboto
+  overflow hidden
+  &::before
+    content ""
+    display none
+    absolute-fill()
+    background rgba(10,0,0,0.1)
+
+h1, h2, h3
+  font-weight 300
+  margin 0
+
+.icon
+  font-size 60px
+  color red
+
+.modal-overlay
+  background alpha(black,0.4)
+  absolute-fill()
+  opacity 0
+  visibility hidden
+
+
+.modal
+  background white
+  text-align center
+  width 230px
+  height 320px
+  absolute-fill()
+  border-radius 3px
+  margin auto
+  padding 20px
+  //box-shadow 0px 8px 13px 6px rgba(0,0,0,0.03);
+  filter url('#blur')
+  transform translate3d(0,-900%,0);
+
+  h1
+    margin-bottom 20px
+
+input
+  margin-bottom 10px
+  padding 10px
+  font-family roboto
+  border none
+  width 100%
+
+&.input-text
+  background white
+  border-bottom 2px solid gray
+  outline none
+  color black
+
+&:focus
+  border-bottom-color red
+
+&::placeholder
+  color black
+
+&.input-submit
+  @extend $default-button
+  margin-top 10px
+
+.close-modal
+  background none
+  border none
+  position absolute
+  font-size 20px
+  right 10px
+  top 10px
+  color black
+  outline none
 
 .open-modal
   absolute-fill()

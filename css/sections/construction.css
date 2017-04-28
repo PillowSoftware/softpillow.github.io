@@ -1,23 +1,20 @@
-.open-modal
-  absolute-fill()
-  width 200px
-  height 40px
-  margin auto
-  @extend $default-button
+/* Buttons */
+.btn {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 40px;
+	color: rgba(255,255,255, 0.95);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 20px;
+	outline: 0;
+	transition: all 0.1s ease-in;
+}
 
-.intro
-  text-align center
-  absolute-fill()
-  margin auto
-  height 120px
-  transform translate(0,-90px)
-
-.filters
-  position absolute
-  width 0
-  height 0
-
-
+.btn-transparent {background: rgba(0,0,0, 0.2);}
+.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
 
 
 *,

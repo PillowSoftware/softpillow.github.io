@@ -20,6 +20,7 @@
     <!-- Grid framework /-->
 
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Font Awesome /-->
 
     <!-- Social media Bootstrap -->
@@ -34,8 +35,13 @@
     <!-- Template styles -->
     <link href="css/template_css.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
-    <!-- sections team -->
+    <!-- section team -->
     <link href="css/sections/team.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <link rel="stylesheet" href="css/server_stack.css">
+    <link rel="stylesheet" href="css/terminal_anim.css">
+    <!-- section projects -->
+    <link href="css/sections/portfolio.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 </head>
 
@@ -59,7 +65,7 @@
                         <a href="#team-section" class="nav-link">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Our projects</a>
+                        <a href="#projects_section" class="nav-link">Our projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">Services</a>
@@ -72,10 +78,6 @@
         </div>
     </nav>
     <!--/.Navbar-->
-
-
-
-
 
     <!--Mask // add hm-black-strong to shadow-->
     <div class="view gradient-bg">
@@ -98,9 +100,384 @@
     <!--/.Mask-->
 
 
+<div class="section-wrapper">
+    <!--Section: Features 1-->
+    <section class="section feature-box">
+        <div class="container">
+            <!--Section heading-->
+            <h1 class="section-heading text-center">What services we offer?</h1>
+            <!--Section description-->
+            <p class="section-description lead text-center">We offer wide range of quality software solutions. We specialize in the most recent technologies currenly used
+                in the industry, including mobile and web applications, back-end services and landing pages</p>
+
+            <!--First row-->
+            <div class="row features-small">
+
+                <!--First column-->
+                <div class="col-md-7 mb-r center-on-small-only">
+                    <div class="row">
+                        <div class="terminal-window">
+                            <header>
+                                <div class="button green"></div>
+                                <div class="button yellow"></div>
+                                <div class="button red"></div>
+                            </header>
+                            <section class="terminal">
+                                <div class="history"></div>
+                                $&nbsp;<span class="prompt"></span>
+                                <span class="typed-cursor"></span>
+
+                            </section>
+                        </div>
+                        <!-- data -->
+                        <div class="terminal-data mimik-run-output">
+                            <br>Found 1 feature<br> ----------------------------------------------
+                            <br> Feature: Bottles <span class="gray"># ./features/bottles.feature</span><br><br> &nbsp;&nbsp;Scenario:
+                            A bottle falls from the wall<br> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="green">✓</span> <span class="gray">Given 100 green bottles are standing</span><br>                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="green">✓</span> <span class="gray">when 1 green bottle accidentally falls</span><br>                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="green">✓</span> <span class="gray">then there are 99 green bottles standing</span><br>
+                            <br>
+                            <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br> &nbsp;&nbsp;Features&nbsp;&nbsp;&nbsp;Scenarios&nbsp;&nbsp;&nbsp;Steps&nbsp;&nbsp;&nbsp;Passed&nbsp;&nbsp;&nbsp;Failed
+                            <br>
+                            <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br> &nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="green">✓ 4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 <br>
+                            <br> &nbsp;&nbsp;Completed 1 feature in 0.01s<br>
+                            <br>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-4 center-on-small">
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-android indigo-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Android applications</h4>
+                            <p>We carefully craft native and high-end application specifically tailored to our customer needs.
+                            </p>
+                            <p>We use: Android SDK, Java, SQL, MongoDB, Firebase etc.</p>
+
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <div style="height:20px"></div>
+
+                    <!--Second row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-code indigo-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Web applications</h4>
+                            <p>We build thought-provoking web applications to fit the entire platform stack with top-notch quality.
+                            </p>
+                            <p>We use: Angular (JavaScript), Pug/Jade, ExpressJS, NodeJS etc. </p>
+
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                    <div style="height:20px"></div>
+
+                    <!--Third row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-server indigo-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Back-end solutions</h4>
+                            <p>We create well designed back-end infrastructure for your platform's needs.</p>
+                            <p>We use: NodeJS (JavaScript), Flask/Django (Python) etc.</p>
+
+                        </div>
+                    </div>
+                    <!--/Third row-->
+                </div>
+                <!--/Second column-->
+            </div>
+            <!--/First row-->
+        </div>
+    </section>
+    <!--/Section: Features 1-->
+</div>
+
+
+    <!--Section: Features 2-->
+    <section class="section feature-box" id="server_stack_section">
+        <div class="container">
+            <!--Section heading-->
+            <h1 class="section-heading text-center">What makes us stand out?</h1>
+            <!--Section sescription-->
+            <p class="section-description lead ">We are a unique team, and so is what we offer. Take a look on some of main standouts!</p>
+
+            <!--First row-->
+            <div class="row features-small">
+
+                <!--First column-->
+                <div class="col-md-4 center-on-small-only">
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-flag-checkered indigo-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Track your project</h4>
+                            <p>We are developing a system where you can easily view and manage your project's progress and get
+                                live notifications when new milestones are reached!</p>
+                            <div style="height:30px"></div>
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <!--Second row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-graduation-cap blue-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Professional</h4>
+                            <p>Each member of our team holds a Bsc. in computer science & mathematics, having at least 2 years
+                                of software development experience.</p>
+                            <div style="height:30px"></div>
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                    <!--Third row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-life-ring cyan-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Great Support</h4>
+                            <p>We are available around the clock for any help regarding your project and its execution</p>
+                            <div style="height:30px"></div>
+                        </div>
+                    </div>
+                    <!--/Third row-->
+                </div>
+                <!--/First column-->
+
+
+                <!--Second column-->
+                <div class="col-md-4 mb-r center-on-small-only">
+                    <div style="height:80px"></div>
+
+                    <svg id="Infrastructure-SVG" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" viewBox="0 0 310 379">
+                        <defs>
+                            <linearGradient id="Infrastructure-shadowGradient" gradientUnits="userSpaceOnUse" x1="32" y1="337.7053" x2="278" y2="337.7053">
+                                <stop offset="0" style="stop-color:#005DFF;stop-opacity:0.15" />
+                                <stop offset="0.4364" style="stop-color:#0068FF;stop-opacity:8.453682e-02" />
+                                <stop offset="1" style="stop-color:#0072FF;stop-opacity:0" />
+                            </linearGradient>
+                            <linearGradient id="Infrastructure-serverGradient" gradientUnits="userSpaceOnUse" x1="32" y1="249.7053" x2="278" y2="249.7053">
+                                <stop offset="0" style="stop-color:#0072FF;stop-opacity:0.3" />
+                                <stop offset="0.1091" style="stop-color:#338EFF;stop-opacity:0.3764" />
+                                <stop offset="0.2384" style="stop-color:#69ACFF;stop-opacity:0.4669" />
+                                <stop offset="0.3693" style="stop-color:#97C5FF;stop-opacity:0.5585" />
+                                <stop offset="0.4993" style="stop-color:#BCDAFF;stop-opacity:0.6495" />
+                                <stop offset="0.628" style="stop-color:#D9EAFF;stop-opacity:0.7396" />
+                                <stop offset="0.7551" style="stop-color:#EEF6FF;stop-opacity:0.8286" />
+                                <stop offset="0.88" style="stop-color:#FBFDFF;stop-opacity:0.916" />
+                                <stop offset="1" style="stop-color:#FFFFFF" />
+                            </linearGradient>
+                            <linearGradient id="Infrastructure-borderGradient" gradientUnits="userSpaceOnUse" x1="32" y1="2820.022" x2="278" y2="2820.022"
+                                gradientTransform="matrix(1 0 0 1 0 -2596)">
+                                <stop offset="0" style="stop-color:#0053FF" />
+                                <stop offset="1" style="stop-color:#00DA88" />
+                            </linearGradient>
+                        </defs>
+                        <style type="text/css">
+                            .Infrastructure-shadow {
+                                fill: url(#Infrastructure-shadowGradient);
+                            }
+                            
+                            .Infrastucture-box {
+                                fill: none;
+                                stroke: #0072FF;
+                                stroke-width: 2;
+                                stroke-linecap: round;
+                                stroke-miterlimit: 10;
+                                stroke-dasharray: 0, 7.0744;
+                            }
+                            
+                            .Infrastucture-borderLine {
+                                fill: none;
+                                stroke: #0072FF;
+                                stroke-width: 2;
+                                stroke-linecap: round;
+                                stroke-miterlimit: 10;
+                                stroke-dasharray: 0, 7;
+                            }
+                            
+                            .Infrastructure-topBorder {
+                                fill: #0072FF;
+                            }
+                            
+                            .Infrastructure-border {
+                                fill: url(#Infrastructure-borderGradient);
+                            }
+                            
+                            .Infrastructure-server {
+                                fill: url(#Infrastructure-serverGradient);
+                            }
+                        </style>
+                        <g id="Infrastructure-shadow">
+                            <polygon class="Infrastructure-shadow" points="278,337.8 155,379 32,337.8 155,296.5 		" />
+                        </g>
+                        <g class="Infrastructure-lines" id="Infrastructure-bottomLines">
+                            <polyline class="Infrastucture-box" points="308.7,289 155,340.5 1,289	" />
+                            <polyline class="Infrastucture-box" points="1,289 155,237.1 308.7,289	" />
+                            <line class="Infrastucture-borderLine" x1="155" y1="238.8" x2="155" y2="1.1" />
+                            <line class="Infrastucture-borderLine" x1="309" y1="289" x2="309" y2="53" />
+                            <line class="Infrastucture-borderLine" x1="1" y1="289" x2="1" y2="53" />
+                        </g>
+                        <g class="Server" id="Server_4">
+                            <polygon class="Infrastructure-topBorder" points="32,253.8 155,212.6 278,253.8 278,250 155,208.6 32,249.8" />
+                            <polygon class="Infrastructure-border" points="278,249.8 155,291 32,249.8 32,253.8 155,295 278,253.8" />
+                            <polygon class="Infrastructure-server" points="278,249.8 155,291 32,249.8 155,208.5	" />
+                        </g>
+                        <g class="Server" id="Server_3">
+                            <polygon class="Infrastructure-topBorder" points="32,205.5 155,164.3 278,205.4 278,201.7 155,160.3 32,201.5" />
+                            <polygon class="Infrastructure-border" points="278,201.4 155,242.6 32,201.4 32,205.4 155,246.6 278,205.4" />
+                            <polygon class="Infrastructure-server" points="278,201.4 155,242.6 32,201.4 155,160.1	" />
+                        </g>
+                        <g class="Server" id="Server_2">
+                            <polygon class="Infrastructure-topBorder" points="32,157.1 155,115.9 278,157.1 278,153.3 155,111.9 32,153.1" />
+                            <polygon class="Infrastructure-border" points="278,153.1 155,194.3 32,153.1 32,157.1 155,198.3 278,157.1" />
+                            <polygon class="Infrastructure-server" points="278,153.1 155,194.3 32,153.1 155,111.8	" />
+                        </g>
+                        <g class="Server" id="Server_1">
+                            <polygon class="Infrastructure-topBorder" points="32,108.8 155,67.6 278,108.8 278,105 155,63.6 32,104.8" />
+                            <polygon class="Infrastructure-border" points="278,104.8 155,146 32,104.8 32,108.8 155,150 278,108.8" />
+                            <polygon class="Infrastructure-server" points="278,104.8 155,146 32,104.8 155,63.5	" />
+                        </g>
+                        <g class="Infrastructure-lines" id="Infrastructure-topLines">
+                            <line class="Infrastucture-borderLine" x1="155" y1="340.7" x2="155" y2="104.5" />
+                            <polyline class="Infrastucture-box" points="1,53 155,1.1 309,53" />
+                            <polyline class="Infrastucture-box" points="309,53 155,104.5 1,53" />
+                        </g>
+                    </svg>
+                </div>
+                <!--/Second column-->
+
+                <!--Third column-->
+                <div class="col-md-4">
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-heart red-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Beloved</h4>
+                            <p>Our customers love what we do.Se tu!. try us for yourself and prepare to be amazed ;)</p>
+                            <div style="height:30px"></div>
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <!--Second row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-flash orange-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Swift</h4>
+                            <p>We are an agile team. we get a task or a problem, we sketch, design,iterate and get it done swiftly
+                                as possible.</p>
+                            <div style="height:30px"></div>
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                    <!--Third row-->
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-magic lime-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title">Guidance</h4>
+                            <p>We help you to get your idea pop into life, from the sketch stage onto execution and final product.
+                                You can count on us.</p>
+                            <div style="height:30px"></div>
+                        </div>
+                    </div>
+                    <!--/Third row-->
+                </div>
+                <!--/Third column-->
+
+
+
+            </div>
+            <!--/First row-->
+
+        </div>
+    </section>
+
+
+<div class="demo-wrapper">
+  
+  <!-- <h1>Horizontal Portfolio Layout With CSS3 Animations and jQuery</h1> -->
+
+    <ul class="portfolio-items">
+    <li class="item">
+      <figure>
+        <div class="imageview">
+         <img class="imgtag" height="280px" width="280px" src="./img/projects/moodler.png" />
+        </div>
+        <figcaption>
+          <p><span><a target="_blank" href="https://chrome.google.com/webstore/detail/moodler/haagdpelohebngbgankjbaimepmcdpno">Moodler</a></span></p>
+          <p><span>By SoftPillow</span></p>
+        </figcaption>
+      </figure>
+      <div class="date">2017</div>
+    </li>
+    
+    <li class="item">
+      <figure>
+        <div class="imageview">
+          <img class="imgtag" height="300px" width="300px" src="https://github.com/EladKeyshawn/HackList/raw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+        </div>
+        <figcaption>
+          <p><span><a target="_blank" href="https://github.com/PillowSoftware/HackList">HackList</a></span></p>
+          <p><span>By SoftPillow</span></p>
+        </figcaption>
+      </figure>
+      <div class="date">2016</div>
+    </li>
+
+    <li class="item">
+      <figure>
+        <div class="imageview">
+          <img class="imgtag" height="300px" width="300px" src="./img/projects/shade.png" />
+        </div>
+        <figcaption>
+          <p><span><a target="_blank" href="https://play.google.com/store/apps/details?id=com.projects.elad.shade">Shade - Better Transportation</a></span></p>
+          <p><span>By PillowSoft</span></p>
+        </figcaption>
+      </figure>
+      <div class="date">2016</div>
+    </li>
+   
+  </ul>
+  </div>
+    
+
+
+
     <!-- TEAM SECTION -->
-    <span id = "team-section">
-    <section id="speakers">
+    <span id="team-section">
+        <section id="speakers">
         <h1 class="white-text aileron">Meet our team</h1>
         <br>
         <!-- Section Title -->
@@ -129,52 +506,54 @@
                             />
                         </div>
                         <span>Co-founder & CEO</span>
-                        <h4><span>Shlomi </span> Alon</h4>
-                    </a>
-                    <ul>
-                        <li><a href="https://www.facebook.com/profile.php?id=100000170029950" target="_blank "><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/shlomi-alon/" target="_blank "><i class="fa fa-linkedin "></i></a></li>
-                        <li><a href="https://github.com/shlomialon" target="_blank "><i class="fa fa-github "></i></a></li>
-                    </ul>
-                </div>
+    <h4><span>Shlomi </span> Alon</h4>
+    </a>
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100000170029950" target="_blank "><i class="fa fa-facebook "></i></a></li>
+        <li><a href="https://www.linkedin.com/in/shlomi-alon/" target="_blank "><i class="fa fa-linkedin "></i></a></li>
+        <li><a href="https://github.com/shlomialon" target="_blank "><i class="fa fa-github "></i></a></li>
+    </ul>
+    </div>
 
-                <!-- Elad -->
-                <div class="col-md-6 ">
-                    <a href="# " class="member-profile">
-                        <div class="unhover_img">
-                            <img src="https://avatars1.githubusercontent.com/u/17123769?v=3&s=400" alt="" />
-                        </div>
-                        <div class="hover_img">
-                            <img src="https://avatars1.githubusercontent.com/u/17123769?v=3&s=400" alt="" />
-                        </div>
-                        <span>Co-founder & CTO</span>
-                        <h4><span>Elad</span> Keyshawn</h4>
-                    </a>
-                    <ul>
-                        <li><a href="https://www.facebook.com/elad.keyshawn" target="_blank "><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://il.linkedin.com/in/elad-keyshawn-a68938119" target="_blank "><i class="fa fa-linkedin "></i></a></li>
-                        <li><a href="https://github.com/EladKeyshawn" target="_blank "><i class="fa fa-github "></i></a></li>
-                    </ul>
-                </div>
-
-
-
+    <div class="col-md-6 ">
+        <a href="# " class="member-profile">
+            <div class="unhover_img">
+                <img src="https://avatars1.githubusercontent.com/u/17123769?v=3&s=400" alt="" />
             </div>
-            <!-- End First Row -->
-            <div class="clear "></div>
-
-
-            <div class="clear "></div>
-
-            <!-- View All Button -->
-            <div class="col-md-12 ">
-                <button class="btn btn-transparent fadeIn ">Wanna join?</button>
+            <div class="hover_img">
+                <img src="https://avatars1.githubusercontent.com/u/17123769?v=3&s=400" alt="" />
             </div>
+            <span>Co-founder & CTO</span>
+            <h4><span>Elad</span> Keyshawn</h4>
+        </a>
+        <ul>
+            <li><a href="https://www.facebook.com/elad.keyshawn" target="_blank "><i class="fa fa-facebook "></i></a></li>
+            <li><a href="https://il.linkedin.com/in/elad-keyshawn-a68938119" target="_blank "><i class="fa fa-linkedin "></i></a></li>
+            <li><a href="https://github.com/EladKeyshawn" target="_blank "><i class="fa fa-github "></i></a></li>
+        </ul>
+    </div>
 
-        </div>
+
+
+    </div>
+    <!-- End First Row -->
+    <div class="clear "></div>
+
+
+    <div class="clear "></div>
+
+    <!-- View All Button -->
+    <div class="col-md-12 ">
+        <button class="btn btn-transparent fadeIn ">Wanna join?</button>
+    </div>
+
+    </div>
     </section>
     </span>
-    <!-- //TEAM SECTION -->
+    <!-- TEAM SECTION -->
+
+
+
 
 
     <!--footer section-->
@@ -198,7 +577,8 @@
                 </ul>
                 <ul class="footer-nav">
                     <li class="header"><a href="/about/">Company</a></li>
-                    <li> <a></a><a href="/blog/">Blog</a></li>
+                    <li>
+                        <a></a><a href="/blog/">Blog</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Careers</a></li>
                     <li><a href="">Press</a></li>
@@ -234,14 +614,28 @@
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
 
     <!-- MDB core JavaScript -->
-    <script type="text/javascript " src="js/mdb.min.js "></script>
+    <script type="text/javascript" src="js/mdb.min.js "></script>
 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+
+    <script src="js/server_stack.js"></script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://www.mattboldt.com/demos/typed-js/js/typed.custom.js'></script>
+
+    <script src="js/terminal_animation.js"></script>
+
+    <script src="js/portfolio.js"></script>
 
     <!-- begin olark code -->
-<script type="text/javascript" async> ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
-/* custom configuration goes here (www.olark.com/documentation) */
-olark.identify('7017-598-10-1094');</script>
-<!-- end olark code -->
+    <script type="text/javascript" async>
+        ; (function (o, l, a, r, k, y) { if (o.olark) return; r = "script"; y = l.createElement(r); r = l.getElementsByTagName(r)[0]; y.async = 1; y.src = "//" + a; r.parentNode.insertBefore(y, r); y = o.olark = function () { k.s.push(arguments); k.t.push(+new Date) }; y.extend = function (i, j) { y("extend", i, j) }; y.identify = function (i) { y("identify", k.i = i) }; y.configure = function (i, j) { y("configure", i, j); k.c[i] = j }; k = y._ = { s: [], t: [+new Date], c: {}, l: a }; })(window, document, "static.olark.com/jsclient/loader.js");
+        /* custom configuration goes here (www.olark.com/documentation) */
+        olark.identify('7017-598-10-1094');
+    </script>
+    <!-- end olark code -->
+
 </body>
 
 </html>

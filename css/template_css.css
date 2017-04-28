@@ -4,6 +4,7 @@
         body,
         .view {
             height: 100%;
+            color: #42506a;
         }
         /* Navigation*/
 
@@ -45,7 +46,12 @@
             background-size: cover;
         }
 
+    
+
         .gradient-bg {
             background: -webkit-linear-gradient(top left, #da5, #d26);
             background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
         }
+
+
+    

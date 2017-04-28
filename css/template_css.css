@@ -8,6 +8,8 @@
         }
         /* Navigation*/
 
+        .anchor { padding-top: 90px; }
+
         .navbar {
             background-color: transparent;
         }

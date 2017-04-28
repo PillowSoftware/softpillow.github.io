@@ -25,17 +25,6 @@
   box-sizing: border-box;
 }
 
-html, body{
-    height:100%;
-    width: 100%;
-}
-
-body {
-  padding:50px;
-  margin:0;
-  overflow:hidden;
-  background-color:#FAFAFA;
-}
 
 @-webkit-keyframes swinging{
     0%{-webkit-transform: rotate(10deg);}
@@ -107,9 +96,7 @@ body {
     -website-animation-delay:1.3s;
 }
 
-.container {
-  text-align:center;
-}
+
 
 svg {
   max-width:1000px;

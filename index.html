@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="css/server_stack.css">
     <link rel="stylesheet" href="css/terminal_anim.css">
     <!-- section projects -->
-    <link href="css/sections/projects.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/sections/portfolio.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 </head>
 
@@ -100,9 +100,7 @@
     <!--/.Mask-->
 
 
-
-
-
+<div class="section-wrapper">
     <!--Section: Features 1-->
     <section class="section feature-box">
         <div class="container">
@@ -210,14 +208,14 @@
         </div>
     </section>
     <!--/Section: Features 1-->
-
+</div>
 
 
     <!--Section: Features 2-->
-    <section class="section feature-box">
+    <section class="section feature-box" id="server_stack_section">
         <div class="container">
             <!--Section heading-->
-            <h1 class="section-heading text-center">Why are we unique?</h1>
+            <h1 class="section-heading text-center">What makes us stand out?</h1>
             <!--Section sescription-->
             <p class="section-description lead ">We are a unique team, and so is what we offer. Take a look on some of main standouts!</p>
 
@@ -271,7 +269,7 @@
 
 
                 <!--Second column-->
-                <div class="col-md-4 mb-r center-on-small-only" id="server_stack_section">
+                <div class="col-md-4 mb-r center-on-small-only">
                     <div style="height:80px"></div>
 
                     <svg id="Infrastructure-SVG" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -427,101 +425,54 @@
     </section>
 
 
-    <!--Projects section v.2-->
+<div class="demo-wrapper">
+  
+  <!-- <h1>Horizontal Portfolio Layout With CSS3 Animations and jQuery</h1> -->
 
-    <section class="section" id="projects_section">
+    <ul class="portfolio-items">
+    <li class="item">
+      <figure>
+        <div class="imageview">
+         <img class="imgtag" height="280px" width="280px" src="./img/projects/moodler.png" />
+        </div>
+        <figcaption>
+          <p><span><a target="_blank" href="https://chrome.google.com/webstore/detail/moodler/haagdpelohebngbgankjbaimepmcdpno">Moodler</a></span></p>
+          <p><span>By SoftPillow</span></p>
+        </figcaption>
+      </figure>
+      <div class="date">2017</div>
+    </li>
+    
+    <li class="item">
+      <figure>
+        <div class="imageview">
+          <img class="imgtag" height="300px" width="300px" src="https://github.com/EladKeyshawn/HackList/raw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+        </div>
+        <figcaption>
+          <p><span><a target="_blank" href="https://github.com/PillowSoftware/HackList">HackList</a></span></p>
+          <p><span>By SoftPillow</span></p>
+        </figcaption>
+      </figure>
+      <div class="date">2016</div>
+    </li>
 
-        <!--Section heading-->
-        <h1 class="section-heading text-center aileron">Our best projects</h1>
-        <!--Section description-->
-        <p class="section-description text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <li class="item">
+      <figure>
+        <div class="imageview">
+          <img class="imgtag" height="300px" width="300px" src="./img/projects/shade.png" />
+        </div>
+        <figcaption>
+          <p><span><a target="_blank" href="https://play.google.com/store/apps/details?id=com.projects.elad.shade">Shade - Better Transportation</a></span></p>
+          <p><span>By PillowSoft</span></p>
+        </figcaption>
+      </figure>
+      <div class="date">2016</div>
+    </li>
+   
+  </ul>
+  </div>
+    
 
-        <div class="container">
-            <!--First row-->
-            <div class="row text-center">
-
-                <!--First column-->
-                <div class="col-lg-4 col-md-12 mb-r">
-
-                    <!--Featured image-->
-                    <div class="view overlay hm-white-slight z-depth-2" style="padding: 40px;">
-                        <img class="thick-green-border" src="img\projects\shade.png">
-                        <a>
-                            <div class="mask waves-effect waves-light"></div>
-                        </a>
-                    </div>
-
-                    <!--Excerpt-->
-                    <div class="card-block">
-                        <a href="https://play.google.com/store/apps/details?id=com.projects.elad.shade&hl=en" target="_blank" class="indigo-text">
-                            <h5>click here to via projects</h5>
-                        </a>
-                        <h3>Best donuts in Berlin</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                            deleniti atque.
-                        </p>
-                        <button class="btn btn-transparent fadeIn" onclick="window.location.href='https://github.com/PillowSoftware/shade'"> View project</button>
-                    </div>
-                    <!--/First column-->
-
-                    <!--Second column-->
-                    <div class="col-lg-4 col-md-6 mb-r">
-
-                        <!--Featured image-->
-                        <div class="view overlay hm-white-slight z-depth-2">
-                            <img width="500" height="500" src="https://github.com/EladKeyshawn/HackList/raw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
-                            <a>
-                                <div class="mask waves-effect waves-light"></div>
-                            </a>
-                        </div>
-
-                        <!--Excerpt-->
-                        <div class="card-block">
-                            <a href="https://github.com/PillowSoftware/HackList" target="_blank" class="blue-text">
-                                <h5>click here to via projects</h5>
-                            </a>
-                            <h3>My restaurant in Milan</h3>
-                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-                                maxime facere possimus.</p>
-                            <button class="btn btn-transparent fadeIn " onclick="window.location.href='https://github.com/PillowSoftware/HackList'">View project</button>
-                        </div>
-
-                    </div>
-                    <!--/Second column-->
-
-                    <!--Third column-->
-                    <div class="col-lg-4 col-md-6 mb-r">
-
-                        <!--Featured image-->
-                        <div class="view overlay hm-white-slight z-depth-2" style="padding: 40px;">
-                            <img src="img\projects\moodler.png">
-                            <a>
-                                <div class="mask waves-effect waves-light"></div>
-                            </a>
-                        </div>
-
-                        <!--Excerpt-->
-                        <div class="card-block">
-                            <a href="https://chrome.google.com/webstore/detail/moodler/haagdpelohebngbgankjbaimepmcdpno" target="_blank" class="orange-text">
-                                <h5>click here to via projects</h5>
-                            </a>
-                            <h3>How to work remotely?</h3>
-                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut
-                                et voluptates repudiandae.
-                            </p>
-                            <button class="btn btn-transparent fadeIn " onclick="window.location.href='https://github.com/PillowSoftware/moodler'">View project</button>
-                        </div>
-
-                    </div>
-                    <!--/Third column-->
-                </div>
-                <!--/First row-->
-            </div>
-
-    </section>
-
-    <!--/Projects section v.2-->
 
 
     <!-- TEAM SECTION -->
@@ -675,6 +626,8 @@
 
     <script src="js/terminal_animation.js"></script>
 
+    <script src="js/portfolio.js"></script>
+
     <!-- begin olark code -->
     <script type="text/javascript" async>
         ; (function (o, l, a, r, k, y) { if (o.olark) return; r = "script"; y = l.createElement(r); r = l.getElementsByTagName(r)[0]; y.async = 1; y.src = "//" + a; r.parentNode.insertBefore(y, r); y = o.olark = function () { k.s.push(arguments); k.t.push(+new Date) }; y.extend = function (i, j) { y("extend", i, j) }; y.identify = function (i) { y("identify", k.i = i) }; y.configure = function (i, j) { y("configure", i, j); k.c[i] = j }; k = y._ = { s: [], t: [+new Date], c: {}, l: a }; })(window, document, "static.olark.com/jsclient/loader.js");
@@ -682,6 +635,7 @@
         olark.identify('7017-598-10-1094');
     </script>
     <!-- end olark code -->
+
 </body>
 
 </html>

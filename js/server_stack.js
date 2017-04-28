@@ -42,16 +42,10 @@ function addInterval() {
     tl.restart();
   }, 15000);
 }
-// document.querySelector('.replay').addEventListener('click', function (e) {
-//   e.preventDefault();
-
-//   tl.restart();
-// });
-
 $(window).scroll(function () {
   if (!animationInitiated) {
-    var hT = $('#server_stack_section').offset().top,
-      hH = $('#server_stack_section').outerHeight(),
+    var hT = $('#standouts_features').offset().top,
+      hH = $('#standouts_features').outerHeight(),
       wH = $(window).height(),
       wS = $(this).scrollTop();
     if (wS > (hT + hH - wH)) {

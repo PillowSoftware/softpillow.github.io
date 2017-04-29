@@ -229,7 +229,7 @@ figcaption a {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #C4290D
+  background-color: #1565C0
 }
 
 @-webkit-keyframes slideOut {

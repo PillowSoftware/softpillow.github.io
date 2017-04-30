@@ -48,7 +48,7 @@
             background-size: cover;
         }
 
-    
+
 
         .gradient-bg {
             background: -webkit-linear-gradient(top left, #da5, #d26);
@@ -56,4 +56,13 @@
         }
 
 
-    
+        @media only screen and (min-width: 990px)
+        {
+          .main-footer_city-landscape-img{
+            background:url(https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/573fa19c8435/assets/img/structural/footer_cityscape.png)
+            no-repeat center bottom;
+            background-size:660px 140px;
+            margin:42px auto 18px;
+            height:140px
+            }
+          }
